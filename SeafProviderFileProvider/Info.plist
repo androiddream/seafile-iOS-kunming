@@ -27,5 +27,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>FileProvider</string>
 	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>微数云盘</string>
 </dict>
 </plist>

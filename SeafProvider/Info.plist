@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>CFBundleIcons</key>
 	<dict/>
 	<key>CFBundleIcons~ipad</key>
@@ -45,5 +43,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.fileprovider-ui</string>
 	</dict>
+	<key>CFBundleDisplayName</key>
+	<string>微数云盘</string>
 </dict>
 </plist>

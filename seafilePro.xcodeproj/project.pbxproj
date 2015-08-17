@@ -531,7 +531,6 @@
 		5725186117AE7D000078CD12 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5725186417AEA6E90078CD12 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "ios-openssl/lib/libcrypto.a"; sourceTree = "<group>"; };
 		5725F686164E5AF400A2DCC6 /* unstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unstar.png; sourceTree = "<group>"; };
-		5729697318B76D6F00363B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5729697418B76F0F00363B2E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5729697518B76F3600363B2E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		572B0A7515D16C1C00798C6E /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
@@ -905,8 +904,6 @@
 		7A439F211B7DFE7F0060FC1B /* 750_1334@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750_1334@.png"; sourceTree = "<group>"; };
 		7A439F221B7DFE7F0060FC1B /* 1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242_2208.png; sourceTree = "<group>"; };
 		7AB5AFD71B7E075100873AD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7AB5AFDF1B7E099A00873AD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7AB5AFE01B7E099C00873AD8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		7ADEF4931B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeafProviderFileProvider.mobileprovision; sourceTree = "<group>"; };
 		7ADEF4951B6A2A7E004E0163 /* seafilePro.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafilePro.mobileprovision; sourceTree = "<group>"; };
 		7ADEF4971B6A2A98004E0163 /* seafile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafile.mobileprovision; sourceTree = "<group>"; };
@@ -1537,7 +1534,6 @@
 				573C3C641A15104B009675F9 /* seafile.entitlements */,
 				571D8DBD1677897D00F1A22C /* seafile-appstore-Info.plist */,
 				57E228BC1A0E4FC400C92330 /* seafile-Prefix.pch */,
-				57DB827C15A833FA00097CEC /* InfoPlist.strings */,
 				57DB827F15A833FA00097CEC /* main.m */,
 				577C6F371AB07B910043A833 /* Settings.bundle */,
 			);
@@ -2323,16 +2319,6 @@
 				57AE2ECD1B45663E003F1672 /* nb */,
 			);
 			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		57DB827C15A833FA00097CEC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5729697318B76D6F00363B2E /* Base */,
-				7AB5AFDF1B7E099A00873AD8 /* en */,
-				7AB5AFE01B7E099C00873AD8 /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		57E22AEF1A12625B00C92330 /* FailToPreview_iPad.xib */ = {

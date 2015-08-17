@@ -42,8 +42,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.2</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
 	<key>UIMainStoryboardFile</key>
 	<string>FolderView_iPhone</string>
 	<key>UIMainStoryboardFile~ipad</key>
@@ -77,5 +75,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>CFBundleDisplayName</key>
+	<string>微数云盘</string>
 </dict>
 </plist>

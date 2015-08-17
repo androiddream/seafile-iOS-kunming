@@ -101,5 +101,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>CFBundleDisplayName</key>
+	<string>微数云盘</string>
 </dict>
 </plist>
