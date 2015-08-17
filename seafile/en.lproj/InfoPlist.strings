@@ -1,3 +1,9 @@
-/* Localized versions of Info.plist keys */
+/* 
+  InfoPlist.strings
+  seafilePro
 
-//CFBundleDisplayName = "Microdata";
+  Created by 中联信 on 15/8/17.
+  Copyright (c) 2015年 Seafile. All rights reserved.
+*/
+
+CFBundleDisplayName = "Microdata";
