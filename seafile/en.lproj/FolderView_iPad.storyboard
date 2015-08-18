@@ -319,7 +319,6 @@
                     <connections>
                         <segue destination="5" kind="relationship" relationship="viewControllers" id="NRW-Ra-2ea"/>
                         <segue destination="DCp-tP-YXD" kind="relationship" relationship="viewControllers" id="OVM-1q-DgC"/>
-                        <segue destination="8iO-sG-chl" kind="relationship" relationship="viewControllers" id="OAn-K0-yev"/>
                         <segue destination="gPc-rh-924" kind="relationship" relationship="viewControllers" id="z1O-zP-jli"/>
                         <segue destination="DWY-JB-KVp" kind="relationship" relationship="viewControllers" id="k9H-gR-h9K"/>
                     </connections>
@@ -593,7 +592,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GxR-hx-KDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-572" y="224"/>
+            <point key="canvasLocation" x="-776" y="568"/>
         </scene>
         <!--Seaf Detail View Controller-->
         <scene sceneID="cC2-6S-qzP">
