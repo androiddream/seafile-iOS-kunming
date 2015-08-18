@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>微数云盘</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.seafile.seafilePro2.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.rongsinfo.seafilePro2.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -27,7 +29,5 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>FileProvider</string>
 	</dict>
-	<key>CFBundleDisplayName</key>
-	<string>微数云盘</string>
 </dict>
 </plist>

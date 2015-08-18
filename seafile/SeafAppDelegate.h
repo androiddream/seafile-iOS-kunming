@@ -21,7 +21,7 @@
 enum {
     TABBED_SEAFILE = 0,
     TABBED_STARRED,
-    TABBED_ACTIVITY,
+//    TABBED_ACTIVITY,
     TABBED_SETTINGS,
     TABBED_ACCOUNTS,
 };
@@ -56,7 +56,7 @@ enum {
 @property (readonly) SeafFileViewController *fileVC;
 @property (readonly) SeafStarredFilesViewController *starredVC;
 @property (readonly) SeafSettingsViewController *settingVC;
-@property (readonly) SeafActivityViewController *actvityVC;
+//@property (readonly) SeafActivityViewController *actvityVC;
 @property (readonly) MFMailComposeViewController *globalMailComposer;
 @property (readonly) NSData *deviceToken;
 

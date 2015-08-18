@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22AB6D721B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D731B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D741B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D761B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
+		22AB6D771B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
+		22AB6D781B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
 		5704C6D31753A1380028F4FE /* IntelligentSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5704C6D11753A1380028F4FE /* IntelligentSplitViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5704C6F91756710F0028F4FE /* tab-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 5704C6F51756710F0028F4FE /* tab-account.png */; };
 		5704C6FB1756710F0028F4FE /* tab-modify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5704C6F61756710F0028F4FE /* tab-modify.png */; };
@@ -380,6 +386,24 @@
 		57F8CD2D1A127566000F6CDC /* SeafTextEditorViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E22B0B1A12625B00C92330 /* SeafTextEditorViewController_iPhone.xib */; };
 		57F8CD2E1A127566000F6CDC /* SeafUploadDirViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E22B0D1A12625C00C92330 /* SeafUploadDirViewController.xib */; };
 		57F8CD2F1A127566000F6CDC /* SeafUploadingFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E22B0F1A12625C00C92330 /* SeafUploadingFileCell.xib */; };
+		7A1186811B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */; };
+		7A1186821B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */; };
+		7A1186831B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */; };
+		7A1186841B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */; };
+		7A1186851B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */; };
+		7A1186861B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */; };
+		7A1186871B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */; };
+		7A1186881B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */; };
+		7A1186891B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */; };
+		7A11868A1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867E1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision */; };
+		7A11868B1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867E1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision */; };
+		7A11868C1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867E1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision */; };
+		7A11868D1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867F1B833C1900AACD13 /* seafProvider_dist.mobileprovision */; };
+		7A11868E1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867F1B833C1900AACD13 /* seafProvider_dist.mobileprovision */; };
+		7A11868F1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A11867F1B833C1900AACD13 /* seafProvider_dist.mobileprovision */; };
+		7A1186901B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A1186801B833C1900AACD13 /* seafile_dist.mobileprovision */; };
+		7A1186911B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A1186801B833C1900AACD13 /* seafile_dist.mobileprovision */; };
+		7A1186921B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7A1186801B833C1900AACD13 /* seafile_dist.mobileprovision */; };
 		7A439EE61B7DE0FD0060FC1B /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A439EDB1B7DE0FD0060FC1B /* 100.png */; };
 		7A439EE71B7DE0FD0060FC1B /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A439EDB1B7DE0FD0060FC1B /* 100.png */; };
 		7A439EE81B7DE0FD0060FC1B /* 100.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A439EDB1B7DE0FD0060FC1B /* 100.png */; };
@@ -440,9 +464,6 @@
 		7AB5AFD81B7E075100873AD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5AFD71B7E075100873AD8 /* Default-568h@2x.png */; };
 		7AB5AFD91B7E075100873AD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5AFD71B7E075100873AD8 /* Default-568h@2x.png */; };
 		7AB5AFDA1B7E075100873AD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB5AFD71B7E075100873AD8 /* Default-568h@2x.png */; };
-		7ADEF4941B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEF4931B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision */; };
-		7ADEF4961B6A2A7E004E0163 /* seafilePro.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEF4951B6A2A7E004E0163 /* seafilePro.mobileprovision */; };
-		7ADEF4981B6A2A98004E0163 /* seafile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 7ADEF4971B6A2A98004E0163 /* seafile.mobileprovision */; };
 		7AE63F5C1B81A78D0058DE00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE63F601B81A78D0058DE00 /* InfoPlist.strings */; };
 		7AE63F5D1B81A78D0058DE00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE63F601B81A78D0058DE00 /* InfoPlist.strings */; };
 		7AE63F5E1B81A78D0058DE00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AE63F601B81A78D0058DE00 /* InfoPlist.strings */; };
@@ -493,6 +514,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rongsinfo_dist.p12; sourceTree = "<group>"; };
+		22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rongsinfo_dev.p12; sourceTree = "<group>"; };
 		5704C6D01753A1380028F4FE /* IntelligentSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentSplitViewController.h; sourceTree = "<group>"; };
 		5704C6D11753A1380028F4FE /* IntelligentSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentSplitViewController.m; sourceTree = "<group>"; };
 		5704C6F51756710F0028F4FE /* tab-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-account.png"; sourceTree = "<group>"; };
@@ -887,6 +910,12 @@
 		57F8CD1E1A127544000F6CDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SeafTextEditorViewController_iPhone.xib; sourceTree = "<group>"; };
 		57F8CD1F1A127549000F6CDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SeafUploadDirViewController.xib; sourceTree = "<group>"; };
 		57F8CD201A12754E000F6CDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SeafUploadingFileCell.xib; sourceTree = "<group>"; };
+		7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeafProviderFileProvider_dev.mobileprovision; sourceTree = "<group>"; };
+		7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafProvider_dev.mobileprovision; sourceTree = "<group>"; };
+		7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafile_dev.mobileprovision; sourceTree = "<group>"; };
+		7A11867E1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeafProviderFileProvider_dist.mobileprovision; sourceTree = "<group>"; };
+		7A11867F1B833C1900AACD13 /* seafProvider_dist.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafProvider_dist.mobileprovision; sourceTree = "<group>"; };
+		7A1186801B833C1900AACD13 /* seafile_dist.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafile_dist.mobileprovision; sourceTree = "<group>"; };
 		7A439EDB1B7DE0FD0060FC1B /* 100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100.png; sourceTree = "<group>"; };
 		7A439EDC1B7DE0FD0060FC1B /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
 		7A439EDD1B7DE0FD0060FC1B /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
@@ -907,9 +936,6 @@
 		7A439F211B7DFE7F0060FC1B /* 750_1334@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750_1334@.png"; sourceTree = "<group>"; };
 		7A439F221B7DFE7F0060FC1B /* 1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242_2208.png; sourceTree = "<group>"; };
 		7AB5AFD71B7E075100873AD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7ADEF4931B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeafProviderFileProvider.mobileprovision; sourceTree = "<group>"; };
-		7ADEF4951B6A2A7E004E0163 /* seafilePro.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafilePro.mobileprovision; sourceTree = "<group>"; };
-		7ADEF4971B6A2A98004E0163 /* seafile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = seafile.mobileprovision; sourceTree = "<group>"; };
 		7AE63F5F1B81A78D0058DE00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AE63F611B81A7940058DE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4F46F57187B44B200B80C36 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1469,9 +1495,14 @@
 		57DB826215A833F900097CEC = {
 			isa = PBXGroup;
 			children = (
-				7ADEF4931B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision */,
-				7ADEF4951B6A2A7E004E0163 /* seafilePro.mobileprovision */,
-				7ADEF4971B6A2A98004E0163 /* seafile.mobileprovision */,
+				22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */,
+				22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */,
+				7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */,
+				7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */,
+				7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */,
+				7A11867E1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision */,
+				7A11867F1B833C1900AACD13 /* seafProvider_dist.mobileprovision */,
+				7A1186801B833C1900AACD13 /* seafile_dist.mobileprovision */,
 				57D189CE182E0A380029A797 /* Images.xcassets */,
 				7A439F071B7DFA840060FC1B /* 启动页 */,
 				7A439EDA1B7DE0FD0060FC1B /* LOGO */,
@@ -1733,7 +1764,7 @@
 				ORGANIZATIONNAME = Seafile;
 				TargetAttributes = {
 					571D8CA91677881400F1A22C = {
-						DevelopmentTeam = MCXWSMR47T;
+						DevelopmentTeam = X555YXWK3R;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -1748,11 +1779,11 @@
 					};
 					57A0295E1A16F8AC009C9D7B = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = MCXWSMR47T;
+						DevelopmentTeam = X555YXWK3R;
 					};
 					57A0296C1A16F8AD009C9D7B = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = MCXWSMR47T;
+						DevelopmentTeam = X555YXWK3R;
 					};
 				};
 			};
@@ -1797,7 +1828,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F8CD211A127566000F6CDC /* DownloadingProgress_iPhone.xib in Resources */,
-				7ADEF4981B6A2A98004E0163 /* seafile.mobileprovision in Resources */,
 				57F8CD221A127566000F6CDC /* DownloadingProgress_iPad.xib in Resources */,
 				57124BE11B3E710E00075EAE /* SeafAccountViewController_iPhone.xib in Resources */,
 				57F8CD231A127566000F6CDC /* FailToPreview_iPad.xib in Resources */,
@@ -1840,11 +1870,14 @@
 				571D8CEC1677881400F1A22C /* blueArrow@2x.png in Resources */,
 				571D8CED1677881400F1A22C /* grayArrow.png in Resources */,
 				7AB5AFD81B7E075100873AD8 /* Default-568h@2x.png in Resources */,
+				7A1186841B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */,
+				7A11868A1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */,
 				57124BE41B3E726700075EAE /* SeafAccountViewController_iPad.xib in Resources */,
 				571D8CEE1677881400F1A22C /* grayArrow@2x.png in Resources */,
 				57C03F5017FB271100F7B575 /* refresh2.png in Resources */,
 				57BFAAFF18BD8EA200EB1B5C /* bt-justify2.png in Resources */,
 				57708BFF19F21D7600D6ACE7 /* text-directory-documents-encrypted@2x.png in Resources */,
+				7A1186901B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */,
 				571D8CEF1677881400F1A22C /* whiteArrow.png in Resources */,
 				57943C1119F027D5008423E5 /* share@2x.png in Resources */,
 				57BFAB1218BD8EA200EB1B5C /* bt-ul.png in Resources */,
@@ -1864,17 +1897,20 @@
 				571D8D051677881400F1A22C /* tab-home.png in Resources */,
 				571D8D061677881400F1A22C /* seafile-logo.png in Resources */,
 				7A439F041B7DE0FD0060FC1B /* 80.png in Resources */,
+				22AB6D761B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
 				57C03F5417FB271100F7B575 /* editfile2.png in Resources */,
 				57124BE91B3EA5FB00075EAE /* LaunchScreen.xib in Resources */,
 				571D8D081677881400F1A22C /* star.png in Resources */,
 				57227A5D18389DB600CD28E9 /* red.png in Resources */,
 				57943C1319F027D5008423E5 /* star@2x.png in Resources */,
 				57943C1A19F027D5008423E5 /* tab-star@2x.png in Resources */,
+				7A11868D1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */,
 				7A439F231B7DFE7F0060FC1B /* 320_480.png in Resources */,
 				57943C0719F027D5008423E5 /* close2@2x.png in Resources */,
 				7A439EF21B7DE0FD0060FC1B /* 29.png in Resources */,
 				5715551D1995FCDC00D2821D /* ImageError.png in Resources */,
 				571D8D091677881400F1A22C /* unstar.png in Resources */,
+				7A1186811B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */,
 				571D8D0C1677881400F1A22C /* upload.png in Resources */,
 				571D8D0D1677881400F1A22C /* FileTypeIcons.plist in Resources */,
 				57943C1219F027D5008423E5 /* share2@2x.png in Resources */,
@@ -1885,7 +1921,6 @@
 				570B7B031715D658002F0E1D /* Markdown.Converter.js in Resources */,
 				7A439F291B7DFE7F0060FC1B /* 1242_2208.png in Resources */,
 				57943C0B19F027D5008423E5 /* ellipsis2@2x.png in Resources */,
-				7ADEF4941B6A2A78004E0163 /* SeafProviderFileProvider.mobileprovision in Resources */,
 				570B7B051715D658002F0E1D /* Markdown.Extra.js in Resources */,
 				57943C1B19F027D5008423E5 /* unstar@2x.png in Resources */,
 				571D8D8E1677881400F1A22C /* unknown-file.png in Resources */,
@@ -1923,6 +1958,7 @@
 				57BFAAFC18BD8EA200EB1B5C /* bt-italic.png in Resources */,
 				57708C0019F21D7600D6ACE7 /* text-directory-documents@2x.png in Resources */,
 				571D8DAB1677881400F1A22C /* application-pdf.png in Resources */,
+				7A1186871B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */,
 				571D8DAC1677881400F1A22C /* application-msword.png in Resources */,
 				571D8DAD1677881400F1A22C /* text.png in Resources */,
 				7A439EE61B7DE0FD0060FC1B /* 100.png in Resources */,
@@ -1941,6 +1977,7 @@
 				57943C0C19F027D5008423E5 /* export@2x.png in Resources */,
 				57124BEB1B3EA6EA00075EAE /* LaunchScreen.png in Resources */,
 				577B6C6216AAD241008E82C2 /* tab-star.png in Resources */,
+				22AB6D721B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				7A439EEF1B7DE0FD0060FC1B /* 120.png in Resources */,
 				7A439F261B7DFE7F0060FC1B /* 750_1334@.png in Resources */,
 				5715551E1995FCDC00D2821D /* ImageError@2x.png in Resources */,
@@ -1969,7 +2006,6 @@
 				57BFAB0C18BD8EA200EB1B5C /* bt-redo.png in Resources */,
 				57A95E6118369E5A009D268A /* ellipsis2.png in Resources */,
 				57C03F4817FB271100F7B575 /* star2.png in Resources */,
-				7ADEF4961B6A2A7E004E0163 /* seafilePro.mobileprovision in Resources */,
 				576B99151861411700A16ED6 /* magnifier-ranged-lo@2x.png in Resources */,
 				7A439EEC1B7DE0FD0060FC1B /* 114.png in Resources */,
 				57532C1C1868AA48003D564B /* seafile-Info.plist in Resources */,
@@ -2025,17 +2061,20 @@
 				7A439F121B7DFA840060FC1B /* 1536_2048.png in Resources */,
 				7A439EEA1B7DE0FD0060FC1B /* 1024.png in Resources */,
 				7A439F151B7DFA840060FC1B /* 640_1136.png in Resources */,
+				7A11868E1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */,
 				57A192161A208F1600985F77 /* SeafAccountCell.xib in Resources */,
 				57A029C81A170A7E009C9D7B /* FileTypeIcons.plist in Resources */,
 				57A029C91A170A7E009C9D7B /* text-directory-documents-encrypted@2x.png in Resources */,
 				7A439EF61B7DE0FD0060FC1B /* 40.png in Resources */,
 				57A029CA1A170A7E009C9D7B /* text-directory-documents@2x.png in Resources */,
 				7AE63F5D1B81A78D0058DE00 /* InfoPlist.strings in Resources */,
+				7A1186911B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */,
 				57A029CB1A170A7E009C9D7B /* application-msword.png in Resources */,
 				57A029CC1A170A7E009C9D7B /* application-pdf.png in Resources */,
 				57A029CD1A170A7E009C9D7B /* application-vnd.ms-excel.png in Resources */,
 				7A439F1E1B7DFA840060FC1B /* 768-1024.png in Resources */,
 				7A439F021B7DE0FD0060FC1B /* 60.png in Resources */,
+				7A1186821B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */,
 				57A029CE1A170A7E009C9D7B /* application-vnd.ms-powerpoint.png in Resources */,
 				7A439EFC1B7DE0FD0060FC1B /* 57.png in Resources */,
 				7AB5AFD91B7E075100873AD8 /* Default-568h@2x.png in Resources */,
@@ -2046,15 +2085,20 @@
 				7A439EED1B7DE0FD0060FC1B /* 114.png in Resources */,
 				57A029D21A170A7E009C9D7B /* psd.png in Resources */,
 				7A439EFF1B7DE0FD0060FC1B /* 58.png in Resources */,
+				22AB6D731B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				57A029D31A170A7E009C9D7B /* text-directory-documents-encrypted.png in Resources */,
 				7A439EF91B7DE0FD0060FC1B /* 512.png in Resources */,
 				57A029D41A170A7E009C9D7B /* text-directory-documents.png in Resources */,
 				57A029D51A170A7E009C9D7B /* text-directory.png in Resources */,
+				7A11868B1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */,
+				7A1186881B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */,
+				7A1186851B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */,
 				57A029D61A170A7E009C9D7B /* text.png in Resources */,
 				7A439F0F1B7DFA840060FC1B /* 1536-2048_hen.png in Resources */,
 				7A439F241B7DFE7F0060FC1B /* 320_480.png in Resources */,
 				7A439F2A1B7DFE7F0060FC1B /* 1242_2208.png in Resources */,
 				57A029D71A170A7E009C9D7B /* unknown-file.png in Resources */,
+				22AB6D771B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
 				57A029D81A170A7E009C9D7B /* video.png in Resources */,
 				7A439F1B1B7DFA840060FC1B /* 768-1024_hen.png in Resources */,
 				57A029C71A170A51009C9D7B /* account.png in Resources */,
@@ -2078,12 +2122,20 @@
 				7AE63F5E1B81A78D0058DE00 /* InfoPlist.strings in Resources */,
 				7A439F031B7DE0FD0060FC1B /* 60.png in Resources */,
 				7A439F061B7DE0FD0060FC1B /* 80.png in Resources */,
+				7A1186861B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */,
+				22AB6D781B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
+				7A1186831B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */,
 				7A439EFD1B7DE0FD0060FC1B /* 57.png in Resources */,
+				7A1186921B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */,
 				7A439EEE1B7DE0FD0060FC1B /* 114.png in Resources */,
+				7A11868C1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */,
+				22AB6D741B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				7AB5AFDA1B7E075100873AD8 /* Default-568h@2x.png in Resources */,
+				7A11868F1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */,
 				57A192221A208F4D00985F77 /* seafile.xcdatamodeld in Resources */,
 				577C6F3A1AB07B910043A833 /* Settings.bundle in Resources */,
 				7A439F1C1B7DFA840060FC1B /* 768-1024_hen.png in Resources */,
+				7A1186891B833C1900AACD13 /* seafile_dev.mobileprovision in Resources */,
 				7A439EEB1B7DE0FD0060FC1B /* 1024.png in Resources */,
 				7A439EF41B7DE0FD0060FC1B /* 29.png in Resources */,
 				7A439F1F1B7DFA840060FC1B /* 768-1024.png in Resources */,
@@ -2478,8 +2530,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = seafile/seafile.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "seafile/seafile-Prefix.pch";
 				HEADER_SEARCH_PATHS = "libs/ios-openssl/include/";
@@ -2490,8 +2542,8 @@
 					"\"$(SRCROOT)/libs/ios-openssl/lib\"",
 				);
 				PRODUCT_NAME = SeafilePro;
-				PROVISIONING_PROFILE = "3e5592ee-d9c8-4c36-97ec-64dd6a5f499f";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3e5592ee-d9c8-4c36-97ec-64dd6a5f499f";
+				PROVISIONING_PROFILE = "f82f7b5b-3533-4ecb-8cbe-336fe8d8c340";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f82f7b5b-3533-4ecb-8cbe-336fe8d8c340";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -2504,8 +2556,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Chengdu Zhong Lian Xin Assets Management Co., LTD";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chengdu Zhong Lian Xin Assets Management Co., LTD";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "seafile/seafile-Prefix.pch";
 				HEADER_SEARCH_PATHS = "libs/ios-openssl/include/";
@@ -2516,8 +2568,8 @@
 					"\"$(SRCROOT)/libs/ios-openssl/lib\"",
 				);
 				PRODUCT_NAME = SeafilePro;
-				PROVISIONING_PROFILE = "b48752d6-6f17-4e2c-86bd-ff1228cef9d6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b48752d6-6f17-4e2c-86bd-ff1228cef9d6";
+				PROVISIONING_PROFILE = "bc8413ac-243c-45bd-82c1-f1d213220310";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "bc8413ac-243c-45bd-82c1-f1d213220310";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -2533,8 +2585,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProviderFileProvider/SeafProviderFileProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2542,11 +2594,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SeafProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2f7078f9-287c-46fa-8b17-3d03283ffca5";
+				PROVISIONING_PROFILE = "dc0e64a0-2819-44c9-90a1-4b711cfe70d5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc0e64a0-2819-44c9-90a1-4b711cfe70d5";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -2560,17 +2613,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProviderFileProvider/SeafProviderFileProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SeafProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "e01232e3-16e3-4053-9eb8-ef8ebc951b0a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e01232e3-16e3-4053-9eb8-ef8ebc951b0a";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -2586,8 +2640,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProvider/SeafProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Liu (2CEKW9FGYX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2600,7 +2654,7 @@
 					"libs/ios-openssl/include/",
 				);
 				INFOPLIST_FILE = SeafProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2608,8 +2662,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "54d6a570-dcbc-4670-9dbf-29080cb92396";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "54d6a570-dcbc-4670-9dbf-29080cb92396";
+				PROVISIONING_PROFILE = "373476ae-db9e-4596-8d65-9ce0fea47884";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "373476ae-db9e-4596-8d65-9ce0fea47884";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -2625,8 +2679,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProvider/SeafProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2636,7 +2690,7 @@
 					"libs/ios-openssl/include/",
 				);
 				INFOPLIST_FILE = SeafProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2644,7 +2698,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "e5f7ce17-68d3-4d2a-9a1d-819271283212";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e5f7ce17-68d3-4d2a-9a1d-819271283212";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -2661,8 +2716,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: xie zheng (V5PK24Q5Y5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: xie zheng (V5PK24Q5Y5)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2685,8 +2740,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"PRIVATE_HEADERS_FOLDER_PATH[sdk=*]" = "";
-				PROVISIONING_PROFILE = "1df37f29-c682-4d65-9da4-271fa5eff6fe";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1df37f29-c682-4d65-9da4-271fa5eff6fe";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2704,8 +2759,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Seafile Inc. (55LCTZ5354)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Seafile Inc. (55LCTZ5354)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2720,8 +2775,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "51003d5c-bf59-422a-a0d4-dacc9a7ef9ee";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "51003d5c-bf59-422a-a0d4-dacc9a7ef9ee";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

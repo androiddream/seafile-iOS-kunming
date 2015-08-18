@@ -12,8 +12,8 @@
 
 //#define GROUP_NAME @"group.com.seafile.seafilePro"
 //#define APP_ID @"com.seafile.seafilePro"
-#define GROUP_NAME @"group.tqb.taoqian123.com"
-#define APP_ID @"com.seafile.seafilePro2"
+#define GROUP_NAME @"group.com.rongsinfo.seaf"
+#define APP_ID @"com.rongsinfo.seafilePro2"
 
 #define API_URL  @"/api2"
 #if DEBUG

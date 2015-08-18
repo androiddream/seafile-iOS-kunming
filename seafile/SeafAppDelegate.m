@@ -53,11 +53,11 @@
             [[self masterNavController:TABBED_SEAFILE] popToRootViewControllerAnimated:NO];
             [[self masterNavController:TABBED_STARRED] popToRootViewControllerAnimated:NO];
             [[self masterNavController:TABBED_SETTINGS] popToRootViewControllerAnimated:NO];
-            [[self masterNavController:TABBED_ACTIVITY] popToRootViewControllerAnimated:NO];
+//            [[self masterNavController:TABBED_ACTIVITY] popToRootViewControllerAnimated:NO];
             self.fileVC.connection = conn;
             self.starredVC.connection = conn;
             self.settingVC.connection = conn;
-            self.actvityVC.connection = conn;
+//            self.actvityVC.connection = conn;
         }
     }
     if (self.deviceToken)
@@ -118,11 +118,20 @@
     [_global migrate];
     [self initTabController];
 
-    if (ios7)
-        [[UITabBar appearance] setTintColor:[UIColor colorWithRed:238.0f/256 green:136.0f/256 blue:51.0f/255 alpha:1.0]];
-    else
-        [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:238.0f/256 green:136.0f/256 blue:51.0f/255 alpha:1.0]];
+//    if (ios7)
+//        [[UITabBar appearance] setTintColor:[UIColor colorWithRed:238.0f/256 green:136.0f/256 blue:51.0f/255 alpha:1.0]];
+//    else
+//        [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithRed:238.0f/256 green:136.0f/256 blue:51.0f/255 alpha:1.0]];
 
+    
+    if (ios7)
+        [[UITabBar appearance] setTintColor:BAR_COLOR];
+    else
+        [[UITabBar appearance] setSelectedImageTintColor:BAR_COLOR];
+    
+    
+    
+    
     [SeafGlobal.sharedObject loadAccounts];
 
     _monitors = [[NSMutableArray alloc] init];
@@ -278,7 +287,7 @@
     UIViewController *fileController = [tabs.viewControllers objectAtIndex:TABBED_SEAFILE];
     UIViewController *starredController = [tabs.viewControllers objectAtIndex:TABBED_STARRED];
     UIViewController *settingsController = [tabs.viewControllers objectAtIndex:TABBED_SETTINGS];
-    UINavigationController *activityController = [tabs.viewControllers objectAtIndex:TABBED_ACTIVITY];
+//    UINavigationController *activityController = [tabs.viewControllers objectAtIndex:TABBED_ACTIVITY];
     UIViewController *accountvc = [tabs.viewControllers objectAtIndex:TABBED_ACCOUNTS];
 
     fileController.tabBarItem.title = NSLocalizedString(@"Libraries", @"Seafile");
@@ -287,8 +296,8 @@
     starredController.tabBarItem.image = [UIImage imageNamed:@"tab-star.png"];
     settingsController.tabBarItem.title = NSLocalizedString(@"Settings", @"Seafile");
     settingsController.tabBarItem.image = [UIImage imageNamed:@"tab-settings.png"];
-    activityController.tabBarItem.title = NSLocalizedString(@"Activity", @"Seafile");
-    activityController.tabBarItem.image = [UIImage imageNamed:@"tab-modify.png"];
+//    activityController.tabBarItem.title = NSLocalizedString(@"Activity", @"Seafile");
+//    activityController.tabBarItem.image = [UIImage imageNamed:@"tab-modify.png"];
     accountvc.tabBarItem.title = NSLocalizedString(@"Accounts", @"Seafile");
     accountvc.tabBarItem.image = [UIImage imageNamed:@"tab-account.png"];
 
@@ -323,7 +332,10 @@
     if (!IsIpad())
         return [self.viewControllers objectAtIndex:index];
     else {
-        return (index == TABBED_ACTIVITY)? [self.viewControllers objectAtIndex:index] : [[[self.viewControllers objectAtIndex:index] viewControllers] objectAtIndex:0];
+        return [[[self.viewControllers objectAtIndex:index] viewControllers] objectAtIndex:0];
+
+        
+//        return (index == TABBED_ACTIVITY)? [self.viewControllers objectAtIndex:index] : [[[self.viewControllers objectAtIndex:index] viewControllers] objectAtIndex:0];
     }
 }
 
@@ -353,10 +365,10 @@
     return (SeafSettingsViewController *)[[self masterNavController:TABBED_SETTINGS] topViewController];
 }
 
-- (SeafActivityViewController *)actvityVC
-{
-    return (SeafActivityViewController *)[[self.viewControllers objectAtIndex:TABBED_ACTIVITY] topViewController];
-}
+//- (SeafActivityViewController *)actvityVC
+//{
+//    return (SeafActivityViewController *)[[self.viewControllers objectAtIndex:TABBED_ACTIVITY] topViewController];
+//}
 
 - (BOOL)checkNetworkStatus
 {
