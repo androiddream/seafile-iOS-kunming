@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22AB6D721B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D731B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D741B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */; };
+		22AB6D761B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
+		22AB6D771B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
+		22AB6D781B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */; };
 		5704C6D31753A1380028F4FE /* IntelligentSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5704C6D11753A1380028F4FE /* IntelligentSplitViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5704C6F91756710F0028F4FE /* tab-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 5704C6F51756710F0028F4FE /* tab-account.png */; };
 		5704C6FB1756710F0028F4FE /* tab-modify.png in Resources */ = {isa = PBXBuildFile; fileRef = 5704C6F61756710F0028F4FE /* tab-modify.png */; };
@@ -508,6 +514,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rongsinfo_dist.p12; sourceTree = "<group>"; };
+		22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rongsinfo_dev.p12; sourceTree = "<group>"; };
 		5704C6D01753A1380028F4FE /* IntelligentSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelligentSplitViewController.h; sourceTree = "<group>"; };
 		5704C6D11753A1380028F4FE /* IntelligentSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelligentSplitViewController.m; sourceTree = "<group>"; };
 		5704C6F51756710F0028F4FE /* tab-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-account.png"; sourceTree = "<group>"; };
@@ -1487,6 +1495,8 @@
 		57DB826215A833F900097CEC = {
 			isa = PBXGroup;
 			children = (
+				22AB6D751B83DE2100730C42 /* rongsinfo_dev.p12 */,
+				22AB6D711B83DE1900730C42 /* rongsinfo_dist.p12 */,
 				7A11867B1B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision */,
 				7A11867C1B833C1900AACD13 /* seafProvider_dev.mobileprovision */,
 				7A11867D1B833C1900AACD13 /* seafile_dev.mobileprovision */,
@@ -1887,6 +1897,7 @@
 				571D8D051677881400F1A22C /* tab-home.png in Resources */,
 				571D8D061677881400F1A22C /* seafile-logo.png in Resources */,
 				7A439F041B7DE0FD0060FC1B /* 80.png in Resources */,
+				22AB6D761B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
 				57C03F5417FB271100F7B575 /* editfile2.png in Resources */,
 				57124BE91B3EA5FB00075EAE /* LaunchScreen.xib in Resources */,
 				571D8D081677881400F1A22C /* star.png in Resources */,
@@ -1966,6 +1977,7 @@
 				57943C0C19F027D5008423E5 /* export@2x.png in Resources */,
 				57124BEB1B3EA6EA00075EAE /* LaunchScreen.png in Resources */,
 				577B6C6216AAD241008E82C2 /* tab-star.png in Resources */,
+				22AB6D721B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				7A439EEF1B7DE0FD0060FC1B /* 120.png in Resources */,
 				7A439F261B7DFE7F0060FC1B /* 750_1334@.png in Resources */,
 				5715551E1995FCDC00D2821D /* ImageError@2x.png in Resources */,
@@ -2073,6 +2085,7 @@
 				7A439EED1B7DE0FD0060FC1B /* 114.png in Resources */,
 				57A029D21A170A7E009C9D7B /* psd.png in Resources */,
 				7A439EFF1B7DE0FD0060FC1B /* 58.png in Resources */,
+				22AB6D731B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				57A029D31A170A7E009C9D7B /* text-directory-documents-encrypted.png in Resources */,
 				7A439EF91B7DE0FD0060FC1B /* 512.png in Resources */,
 				57A029D41A170A7E009C9D7B /* text-directory-documents.png in Resources */,
@@ -2085,6 +2098,7 @@
 				7A439F241B7DFE7F0060FC1B /* 320_480.png in Resources */,
 				7A439F2A1B7DFE7F0060FC1B /* 1242_2208.png in Resources */,
 				57A029D71A170A7E009C9D7B /* unknown-file.png in Resources */,
+				22AB6D771B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
 				57A029D81A170A7E009C9D7B /* video.png in Resources */,
 				7A439F1B1B7DFA840060FC1B /* 768-1024_hen.png in Resources */,
 				57A029C71A170A51009C9D7B /* account.png in Resources */,
@@ -2109,11 +2123,13 @@
 				7A439F031B7DE0FD0060FC1B /* 60.png in Resources */,
 				7A439F061B7DE0FD0060FC1B /* 80.png in Resources */,
 				7A1186861B833C1900AACD13 /* seafProvider_dev.mobileprovision in Resources */,
+				22AB6D781B83DE2100730C42 /* rongsinfo_dev.p12 in Resources */,
 				7A1186831B833C1900AACD13 /* SeafProviderFileProvider_dev.mobileprovision in Resources */,
 				7A439EFD1B7DE0FD0060FC1B /* 57.png in Resources */,
 				7A1186921B833C1900AACD13 /* seafile_dist.mobileprovision in Resources */,
 				7A439EEE1B7DE0FD0060FC1B /* 114.png in Resources */,
 				7A11868C1B833C1900AACD13 /* SeafProviderFileProvider_dist.mobileprovision in Resources */,
+				22AB6D741B83DE1900730C42 /* rongsinfo_dist.p12 in Resources */,
 				7AB5AFDA1B7E075100873AD8 /* Default-568h@2x.png in Resources */,
 				7A11868F1B833C1900AACD13 /* seafProvider_dist.mobileprovision in Resources */,
 				57A192221A208F4D00985F77 /* seafile.xcdatamodeld in Resources */,
