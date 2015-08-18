@@ -2515,7 +2515,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = seafile/seafile.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "seafile/seafile-Prefix.pch";
 				HEADER_SEARCH_PATHS = "libs/ios-openssl/include/";
@@ -2527,7 +2527,7 @@
 				);
 				PRODUCT_NAME = SeafilePro;
 				PROVISIONING_PROFILE = "f82f7b5b-3533-4ecb-8cbe-336fe8d8c340";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "f82f7b5b-3533-4ecb-8cbe-336fe8d8c340";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -2541,7 +2541,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "seafile/seafile-Prefix.pch";
 				HEADER_SEARCH_PATHS = "libs/ios-openssl/include/";
@@ -2553,7 +2553,7 @@
 				);
 				PRODUCT_NAME = SeafilePro;
 				PROVISIONING_PROFILE = "bc8413ac-243c-45bd-82c1-f1d213220310";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "bc8413ac-243c-45bd-82c1-f1d213220310";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -2569,8 +2569,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProviderFileProvider/SeafProviderFileProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2578,12 +2578,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SeafProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "dc0e64a0-2819-44c9-90a1-4b711cfe70d5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "dc0e64a0-2819-44c9-90a1-4b711cfe70d5";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -2597,18 +2597,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProviderFileProvider/SeafProviderFileProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = SeafProviderFileProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "e01232e3-16e3-4053-9eb8-ef8ebc951b0a";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e01232e3-16e3-4053-9eb8-ef8ebc951b0a";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -2624,8 +2624,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProvider/SeafProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jiandong Liu (72RTPA4KSV)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2638,7 +2638,7 @@
 					"libs/ios-openssl/include/",
 				);
 				INFOPLIST_FILE = SeafProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2646,8 +2646,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "373476ae-db9e-4596-8d65-9ce0fea47884";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "373476ae-db9e-4596-8d65-9ce0fea47884";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -2663,8 +2663,8 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = SeafProvider/SeafProvider.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yunnan Rong Si Information Technology Co., Ltd. (X555YXWK3R)";
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -2674,7 +2674,7 @@
 					"libs/ios-openssl/include/",
 				);
 				INFOPLIST_FILE = SeafProvider/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2682,8 +2682,8 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "e5f7ce17-68d3-4d2a-9a1d-819271283212";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "e5f7ce17-68d3-4d2a-9a1d-819271283212";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
