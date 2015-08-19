@@ -62,7 +62,7 @@
 
     NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"SeafStartHeaderView" owner:self options:nil];
     UIView *header = [views objectAtIndex:0];
-    header.frame = CGRectMake(0,0, self.tableView.frame.size.width, 100);
+    header.frame = CGRectMake(0,0, self.tableView.frame.size.width, 50);
     header.autoresizesSubviews = YES;
     header.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin| UIViewAutoresizingFlexibleRightMargin| UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleTopMargin;
     header.backgroundColor = [UIColor clearColor];
