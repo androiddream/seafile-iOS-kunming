@@ -35,7 +35,7 @@ enum {
 @property (strong, nonatomic) IBOutlet UITableViewCell *usedspaceCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *serverCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *cacheCell;
-@property (strong, nonatomic) IBOutlet UITableViewCell *versionCell;
+//@property (strong, nonatomic) IBOutlet UITableViewCell *versionCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *autoSyncCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *syncRepoCell;
 @property (strong, nonatomic) IBOutlet UITableViewCell *tellFriendCell;
@@ -128,7 +128,7 @@ enum {
     _websiteCell.textLabel.text = NSLocalizedString(@"Website", @"Seafile");
     _websiteCell.detailTextLabel.text = @"www.seafile.com";
     _serverCell.textLabel.text = NSLocalizedString(@"Server", @"Seafile");
-    _versionCell.textLabel.text = NSLocalizedString(@"Version", @"Seafile");
+//    _versionCell.textLabel.text = NSLocalizedString(@"Version", @"Seafile");
     _wipeCacheLabel.text = NSLocalizedString(@"Wipe Cache", @"Seafile");
     self.title = NSLocalizedString(@"Settings", @"Seafile");
 
@@ -168,7 +168,7 @@ enum {
 
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     NSString *version = [infoDictionary objectForKey:@"CFBundleVersion"];
-    _versionCell.detailTextLabel.text = version;
+//    _versionCell.detailTextLabel.text = version;
 
     _nameCell.detailTextLabel.text = _connection.username;
     _serverCell.detailTextLabel.text = [_connection.address trimUrl];
@@ -319,7 +319,7 @@ enum {
     [self setUsedspaceCell:nil];
     [self setServerCell:nil];
     [self setCacheCell:nil];
-    [self setVersionCell:nil];
+//    [self setVersionCell:nil];
     [super viewDidUnload];
 }
 
